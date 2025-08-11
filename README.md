@@ -1,6 +1,6 @@
 # Grid Carbon Analysis
 
-A comprehensive analysis of the best time of day to use energy to maximise your useage of low carbon energy.
+A comprehensive analysis of the best time of day to use energy to maximise your usage of low carbon energy.
 
 <Picture to break up sections to go here>
 
@@ -39,7 +39,7 @@ This project analyses the carbon intensity of electricity across different regio
 
 **Why this matters:** Missing data can skew analysis results. We needed to understand the pattern of missing values before deciding how to handle them.
 
-### Step 2: Standardization
+### Step 2: Standardisation
 **Actions taken:**
 - Converted all timestamps to UTC timezone for consistency
 - Standardised column naming conventions
@@ -83,7 +83,7 @@ This project analyses the carbon intensity of electricity across different regio
 - **Time Patterns:** Lower carbon intensity during windy/sunny periods
 
 ### Negative Carbon Intensity Explanation
-**Why some regions show negative values:** When a region generates more renewable energy than it consumes, it exports clean electricity to neighboring regions, effectively "offsetting" their carbon intensity. This is a positive indicator of renewable energy success.
+**Why some regions show negative values:** When a region generates more renewable energy than it consumes, it exports clean electricity to neighbouring regions, effectively "offsetting" their carbon intensity. This is a positive indicator of renewable energy success.
 
 <Picture to break up sections to go here>
 
@@ -96,7 +96,7 @@ Raw Data Sources
     ↓
 Data Validation & Quality Checks
     ↓
-Standardization & Cleaning
+Standardisation & Cleaning
 ├── UTC timestamp conversion
 ├── Missing data imputation
 └── Feature engineering
