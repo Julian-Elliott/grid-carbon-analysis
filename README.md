@@ -121,10 +121,10 @@ data/
 └── descriptive_statistics/        # Summary statistics and data profiles
 
 notebooks/
-├── 01_extract_neso_data.ipynb     # Data collection from NESO APIs
-├── 02_transform_generation_mix.ipynb      # Generation mix cleaning
+├── 01_extract_neso_data.ipynb                    # Data collection from NESO URL
+├── 02_transform_generation_mix.ipynb             # Generation mix cleaning
 ├── 03_transform_regional_carbon_intensity.ipynb  # Regional data processing
-└── 04_transform_merged_data.ipynb         # Combined dataset creation
+└── 04_transform_merged_data.ipynb                # Combined dataset creation
 ```
 
 <Picture to break up sections to go here>
