@@ -12,18 +12,15 @@ This project analyzes electricity grid carbon intensity data to identify optimal
 ├── README.md
 ├── requirements.txt
 ├── notebooks/
-│   ├── 01_data_collection.ipynb
-│   ├── 02_exploratory_analysis.ipynb
-│   ├── 03_regional_analysis.ipynb
-│   ├── 04_temporal_patterns.ipynb
-│   └── 05_optimization_recommendations.ipynb
+│   ├── 01_extract_neso_data.ipynb
+│   ├── 02_transform_generation_mix.ipynb
+│   ├── 03_transform_regional_carbon_intensity.ipynb
+│   ├── 04_.ipynb
+│   └── 05_.ipynb
 ├── data/
 │   ├── raw/
 │   └── processed/
-├── src/
-│   ├── data_fetcher.py
-│   ├── analysis_utils.py
-│   └── visualization.py
+
 └── results/
     ├── figures/
     └── reports/
