@@ -41,9 +41,9 @@ This project analyses the carbon intensity of electricity across different regio
 
 ### Step 2: Standardization
 **Actions taken:**
-- ✅ Converted all timestamps to UTC timezone for consistency
-- ✅ Standardized column naming conventions
-- ✅ Verified 30-minute interval completeness
+- Converted all timestamps to UTC timezone for consistency
+- Standardised column naming conventions
+- Verified 30-minute interval completeness
 
 **Business impact:** Ensures reliable time-series analysis and accurate regional comparisons.
 
