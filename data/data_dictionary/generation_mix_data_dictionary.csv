@@ -1,24 +1,24 @@
 Column,Data Type,Missing Values,Missing %,Unique Values,Sample Values,Description
-DATETIME,"datetime64[ns, UTC]",0,0.0,291184,"2009-01-01 00:00:00+00:00, 2009-01-01 00:30:00+00:00, 2009-01-01 01:00:00+00:00","Date and time of historic generation mix and carbon intensity, given in UTC (ISO 8601 format)"
-GAS,float64,0,0.0,23775,"8369.0, 8498.0, 8474.0",Amount of generation delivered by gas fuel type (MW)
+DATETIME,"datetime64[ns, UTC]",0,0.0,291216,"2009-01-01 00:00:00+00:00, 2009-01-01 00:30:00+00:00, 2009-01-01 01:00:00+00:00","Date and time of historic generation mix and carbon intensity, given in UTC (ISO 8601 format)"
+GAS,float64,0,0.0,23772,"8369.0, 8498.0, 8474.0",Amount of generation delivered by gas fuel type (MW)
 COAL,float64,0,0.0,23813,"15037.0, 15095.0, 15088.0",Amount of generation delivered by coal fuel type (MW)
-NUCLEAR,float64,0,0.0,6787,"7099.0, 7087.0, 7074.0",Amount of generation delivered by nuclear fuel type (MW)
-WIND,float64,0,0.0,16086,"244.0, 225.0, 203.0",Amount of generation delivered by wind fuel type (MW)
-WIND_EMB,float64,0,0.0,5407,"61.0, 56.0, 51.0",Amount of generation delivered by embedded wind (MW)
+NUCLEAR,float64,0,0.0,6790,"7099.0, 7088.0, 7074.0",Amount of generation delivered by nuclear fuel type (MW)
+WIND,float64,0,0.0,16087,"244.0, 225.0, 204.0",Amount of generation delivered by wind fuel type (MW)
+WIND_EMB,float64,0,0.0,5403,"61.0, 56.0, 51.0",Amount of generation delivered by embedded wind (MW)
 HYDRO,int64,0,0.0,1323,"246, 245, 246",Amount of generation delivered by hydro fuel type (MW)
-IMPORTS,float64,0,0.0,7601,"2519.0, 2497.0, 2466.0",Interconnector imports (MW)
+IMPORTS,float64,0,0.0,7589,"2519.0, 2497.0, 2466.0",Interconnector imports (MW)
 BIOMASS,float64,0,0.0,3200,"0.0, 0.0, 0.0",Amount of generation delivered by biomass fuel type (MW)
 OTHER,float64,0,0.0,2424,"0.0, 0.0, 0.0",Amount of generation delivered by other fuel types (MW)
-SOLAR,float64,0,0.0,9995,"0.0, 0.0, 0.0",Amount of generation delivered by solar fuel type (MW)
+SOLAR,float64,0,0.0,10004,"0.0, 0.0, 0.0",Amount of generation delivered by solar fuel type (MW)
 STORAGE,int64,0,0.0,1297,"0, 0, 0",Amount of generation delivered by storage (MW)
-GENERATION,float64,0,0.0,33377,"33575.0, 33703.0, 33603.0","Sum of gas, coal, nuclear, wind, hydro and imports (MW)"
-CARBON_INTENSITY,float64,0,0.0,623,"525.0, 526.0, 527.0",Carbon intensity of electricity - CO2 emissions per kWh of electricity consumed (gCO2/kWh)
-LOW_CARBON,float64,0,0.0,24073,"7650.0, 7614.0, 7574.0","Low carbon generation - wind, solar, hydro, nuclear, biomass (MW)"
-ZERO_CARBON,float64,0,0.0,17361,"7589.0, 7558.0, 7523.0","Zero carbon generation - wind, solar, hydro, nuclear (MW)"
-RENEWABLE,float64,0,0.0,22877,"551.0, 526.0, 500.0","Renewable generation - wind, hydro, solar (MW)"
-FOSSIL,float64,0,0.0,40193,"23406.0, 23593.0, 23562.0","Fossil generation - coal, natural gas (MW)"
-GAS_perc,float64,0,0.0,699,"24.9, 25.2, 25.2",Gas generation as percentage of total generation (%)
-COAL_perc,float64,0,0.0,594,"44.8, 44.8, 44.9",Coal generation as percentage of total generation (%)
+GENERATION,float64,0,0.0,33386,"33575.0, 33704.0, 33603.0","Sum of gas, coal, nuclear, wind, hydro and imports (MW)"
+CARBON_INTENSITY,float64,0,0.0,622,"525.0, 526.0, 527.0",Carbon intensity of electricity - CO2 emissions per kWh of electricity consumed (gCO2/kWh)
+LOW_CARBON,float64,0,0.0,24072,"7650.0, 7614.0, 7575.0","Low carbon generation - wind, solar, hydro, nuclear, biomass (MW)"
+ZERO_CARBON,float64,0,0.0,17360,"7589.0, 7558.0, 7524.0","Zero carbon generation - wind, solar, hydro, nuclear (MW)"
+RENEWABLE,float64,0,0.0,22867,"551.0, 526.0, 500.0","Renewable generation - wind, hydro, solar (MW)"
+FOSSIL,float64,0,0.0,40205,"23406.0, 23593.0, 23562.0","Fossil generation - coal, natural gas (MW)"
+GAS_perc,float64,0,0.0,698,"24.9, 25.2, 25.2",Gas generation as percentage of total generation (%)
+COAL_perc,float64,0,0.0,595,"44.8, 44.8, 44.9",Coal generation as percentage of total generation (%)
 NUCLEAR_perc,float64,0,0.0,371,"21.1, 21.0, 21.1",Nuclear generation as percentage of total generation (%)
 WIND_perc,float64,0,0.0,553,"0.7, 0.7, 0.6",Wind generation as percentage of total generation (%)
 WIND_EMB_perc,float64,0,0.0,193,"0.2, 0.2, 0.2",Embedded wind generation as percentage of total generation (%)
@@ -26,10 +26,10 @@ HYDRO_perc,float64,0,0.0,44,"0.7, 0.7, 0.7",Hydro generation as percentage of to
 IMPORTS_perc,float64,0,0.0,357,"7.5, 7.4, 7.3",Interconnector imports as percentage of total generation (%)
 BIOMASS_perc,float64,0,0.0,160,"0.0, 0.0, 0.0",Biomass generation as percentage of total generation (%)
 OTHER_perc,float64,0,0.0,104,"0.0, 0.0, 0.0",Other generation as percentage of total generation (%)
-SOLAR_perc,float64,0,0.0,411,"0.0, 0.0, 0.0",Solar generation as percentage of total generation (%)
+SOLAR_perc,float64,0,0.0,412,"0.0, 0.0, 0.0",Solar generation as percentage of total generation (%)
 STORAGE_perc,float64,0,0.0,71,"0.0, 0.0, 0.0",Storage as percentage of total generation (%)
 GENERATION_perc,float64,0,0.0,1,"100.0, 100.0, 100.0","Total generation (gas, coal, nuclear, wind, hydro, imports) as percentage (%)"
-LOW_CARBON_perc,float64,0,0.0,811,"22.8, 22.6, 22.5",Low carbon generation as percentage of total generation (%)
+LOW_CARBON_perc,float64,0,0.0,810,"22.8, 22.6, 22.5",Low carbon generation as percentage of total generation (%)
 ZERO_CARBON_perc,float64,0,0.0,790,"24.5, 24.3, 24.2",Zero carbon generation as percentage of total generation (%)
-RENEWABLE_perc,float64,0,0.0,767,"1.6, 1.6, 1.5",Renewable generation as percentage of total generation (%)
+RENEWABLE_perc,float64,0,0.0,768,"1.6, 1.6, 1.5",Renewable generation as percentage of total generation (%)
 FOSSIL_perc,float64,0,0.0,865,"69.7, 70.0, 70.1",Fossil generation as percentage of total generation (%)

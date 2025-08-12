@@ -1,49 +1,49 @@
 Column,Data Type,Missing Values,Missing %,Unique Values,Sample Values,Description
-GAS,float64,104,0.09,22537,"3349.0, 3399.0, 3116.0",Amount of generation delivered by gas fuel type (MW)
-COAL,float64,104,0.09,4761,"416.0, 412.0, 389.0",Amount of generation delivered by coal fuel type (MW)
-NUCLEAR,float64,104,0.09,4700,"7242.0, 7243.0, 7247.0",Amount of generation delivered by nuclear fuel type (MW)
-WIND,float64,104,0.09,15972,"7962.0, 7756.0, 7814.0",Amount of generation delivered by wind fuel type (MW)
-WIND_EMB,float64,104,0.09,5254,"2085.0, 2119.0, 2151.0",Amount of generation delivered by embedded wind (MW)
-HYDRO,float64,104,0.09,1154,"366.0, 359.0, 348.0",Amount of generation delivered by hydro fuel type (MW)
-IMPORTS,float64,104,0.09,7505,"1506.0, 1456.0, 1506.0",Interconnector imports (MW)
-BIOMASS,float64,104,0.09,3200,"1783.0, 1385.0, 1385.0",Amount of generation delivered by biomass fuel type (MW)
-OTHER,float64,104,0.09,1779,"81.0, 82.0, 82.0",Amount of generation delivered by other fuel types (MW)
-SOLAR,float64,104,0.09,9883,"0.0, 0.0, 0.0",Amount of generation delivered by solar fuel type (MW)
-STORAGE,float64,104,0.09,1268,"0.0, 0.0, 0.0",Amount of generation delivered by storage (MW)
-GENERATION,float64,104,0.09,26412,"24790.0, 24211.0, 24038.0","Sum of gas, coal, nuclear, wind, hydro and imports (MW)"
-CARBON_INTENSITY,float64,104,0.09,379,"83.0, 83.0, 78.0",Carbon intensity of electricity - CO2 emissions per kWh of electricity consumed (gCO2/kWh)
-LOW_CARBON,float64,104,0.09,22108,"19438.0, 18862.0, 18945.0","Low carbon generation - wind, solar, hydro, nuclear, biomass (MW)"
-ZERO_CARBON,float64,104,0.09,17326,"15570.0, 15358.0, 15409.0","Zero carbon generation - wind, solar, hydro, nuclear (MW)"
-RENEWABLE,float64,104,0.09,22061,"10413.0, 10234.0, 10313.0","Renewable generation - wind, hydro, solar (MW)"
-FOSSIL,float64,104,0.09,24258,"3765.0, 3811.0, 3505.0","Fossil generation - coal, natural gas (MW)"
-GAS_perc,float64,104,0.09,699,"13.5, 14.0, 13.0",Gas generation as percentage of total generation (%)
-COAL_perc,float64,104,0.09,193,"1.7, 1.7, 1.6",Coal generation as percentage of total generation (%)
-NUCLEAR_perc,float64,104,0.09,267,"29.2, 29.9, 30.1",Nuclear generation as percentage of total generation (%)
-WIND_perc,float64,104,0.09,552,"32.1, 32.0, 32.5",Wind generation as percentage of total generation (%)
-WIND_EMB_perc,float64,104,0.09,190,"8.4, 8.8, 8.9",Embedded wind generation as percentage of total generation (%)
-HYDRO_perc,float64,104,0.09,44,"1.5, 1.5, 1.4",Hydro generation as percentage of total generation (%)
-IMPORTS_perc,float64,104,0.09,357,"6.1, 6.0, 6.3",Interconnector imports as percentage of total generation (%)
-BIOMASS_perc,float64,104,0.09,160,"7.2, 5.7, 5.8",Biomass generation as percentage of total generation (%)
-OTHER_perc,float64,104,0.09,70,"0.3, 0.3, 0.3",Other generation as percentage of total generation (%)
-SOLAR_perc,float64,104,0.09,411,"0.0, 0.0, 0.0",Solar generation as percentage of total generation (%)
-STORAGE_perc,float64,104,0.09,71,"0.0, 0.0, 0.0",Storage as percentage of total generation (%)
-GENERATION_perc,float64,104,0.09,1,"100.0, 100.0, 100.0","Total generation (gas, coal, nuclear, wind, hydro, imports) as percentage (%)"
-LOW_CARBON_perc,float64,104,0.09,725,"78.4, 77.9, 78.8",Low carbon generation as percentage of total generation (%)
-ZERO_CARBON_perc,float64,104,0.09,770,"73.4, 74.4, 75.6",Zero carbon generation as percentage of total generation (%)
-RENEWABLE_perc,float64,104,0.09,749,"42.0, 42.3, 42.9",Renewable generation as percentage of total generation (%)
-FOSSIL_perc,float64,104,0.09,717,"15.2, 15.7, 14.6",Fossil generation as percentage of total generation (%)
-North Scotland,float64,0,0.0,792,"30.0, 44.0, 44.0","North Scotland carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
-South Scotland,float64,0,0.0,478,"11.0, 7.0, 8.0","South Scotland carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
-North West England,float64,0,0.0,607,"38.0, 41.0, 39.0","North West England carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
-North East England,float64,0,0.0,515,"24.0, 30.0, 30.0","North East England carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
-Yorkshire,float64,0,0.0,1078,"319.0, 298.0, 295.0","Yorkshire carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
-North Wales and Merseyside,float64,0,0.0,1344,"157.0, 183.0, 180.0","North Wales and Merseyside carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
-South Wales,float64,0,0.0,1292,"271.0, 157.0, 155.0","South Wales carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
-West Midlands,float64,0,0.0,1182,"40.0, 39.0, 39.0","West Midlands carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
-East Midlands,float64,0,0.0,1561,"325.0, 340.0, 337.0","East Midlands carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
+GAS,float64,72,0.06,22531,"3349.0, 3399.0, 3116.0",Amount of generation delivered by gas fuel type (MW)
+COAL,float64,72,0.06,4761,"416.0, 412.0, 389.0",Amount of generation delivered by coal fuel type (MW)
+NUCLEAR,float64,72,0.06,4703,"7242.0, 7243.0, 7247.0",Amount of generation delivered by nuclear fuel type (MW)
+WIND,float64,72,0.06,15973,"7962.0, 7756.0, 7814.0",Amount of generation delivered by wind fuel type (MW)
+WIND_EMB,float64,72,0.06,5250,"2085.0, 2120.0, 2151.0",Amount of generation delivered by embedded wind (MW)
+HYDRO,float64,72,0.06,1154,"366.0, 359.0, 348.0",Amount of generation delivered by hydro fuel type (MW)
+IMPORTS,float64,72,0.06,7491,"1506.0, 1456.0, 1506.0",Interconnector imports (MW)
+BIOMASS,float64,72,0.06,3200,"1783.0, 1385.0, 1385.0",Amount of generation delivered by biomass fuel type (MW)
+OTHER,float64,72,0.06,1779,"81.0, 82.0, 82.0",Amount of generation delivered by other fuel types (MW)
+SOLAR,float64,72,0.06,9894,"0.0, 0.0, 0.0",Amount of generation delivered by solar fuel type (MW)
+STORAGE,float64,72,0.06,1268,"0.0, 0.0, 0.0",Amount of generation delivered by storage (MW)
+GENERATION,float64,72,0.06,26456,"24790.0, 24212.0, 24038.0","Sum of gas, coal, nuclear, wind, hydro and imports (MW)"
+CARBON_INTENSITY,float64,72,0.06,379,"83.0, 83.0, 78.0",Carbon intensity of electricity - CO2 emissions per kWh of electricity consumed (gCO2/kWh)
+LOW_CARBON,float64,72,0.06,22121,"19438.0, 18863.0, 18945.0","Low carbon generation - wind, solar, hydro, nuclear, biomass (MW)"
+ZERO_CARBON,float64,72,0.06,17326,"15570.0, 15358.0, 15409.0","Zero carbon generation - wind, solar, hydro, nuclear (MW)"
+RENEWABLE,float64,72,0.06,22069,"10413.0, 10235.0, 10313.0","Renewable generation - wind, hydro, solar (MW)"
+FOSSIL,float64,72,0.06,24258,"3765.0, 3811.0, 3505.0","Fossil generation - coal, natural gas (MW)"
+GAS_perc,float64,72,0.06,698,"13.5, 14.0, 13.0",Gas generation as percentage of total generation (%)
+COAL_perc,float64,72,0.06,193,"1.7, 1.7, 1.6",Coal generation as percentage of total generation (%)
+NUCLEAR_perc,float64,72,0.06,267,"29.2, 29.9, 30.1",Nuclear generation as percentage of total generation (%)
+WIND_perc,float64,72,0.06,552,"32.1, 32.0, 32.5",Wind generation as percentage of total generation (%)
+WIND_EMB_perc,float64,72,0.06,190,"8.4, 8.8, 8.9",Embedded wind generation as percentage of total generation (%)
+HYDRO_perc,float64,72,0.06,44,"1.5, 1.5, 1.4",Hydro generation as percentage of total generation (%)
+IMPORTS_perc,float64,72,0.06,357,"6.1, 6.0, 6.3",Interconnector imports as percentage of total generation (%)
+BIOMASS_perc,float64,72,0.06,160,"7.2, 5.7, 5.8",Biomass generation as percentage of total generation (%)
+OTHER_perc,float64,72,0.06,70,"0.3, 0.3, 0.3",Other generation as percentage of total generation (%)
+SOLAR_perc,float64,72,0.06,412,"0.0, 0.0, 0.0",Solar generation as percentage of total generation (%)
+STORAGE_perc,float64,72,0.06,71,"0.0, 0.0, 0.0",Storage as percentage of total generation (%)
+GENERATION_perc,float64,72,0.06,1,"100.0, 100.0, 100.0","Total generation (gas, coal, nuclear, wind, hydro, imports) as percentage (%)"
+LOW_CARBON_perc,float64,72,0.06,724,"78.4, 77.9, 78.8",Low carbon generation as percentage of total generation (%)
+ZERO_CARBON_perc,float64,72,0.06,770,"73.4, 74.4, 75.6",Zero carbon generation as percentage of total generation (%)
+RENEWABLE_perc,float64,72,0.06,750,"42.0, 42.3, 42.9",Renewable generation as percentage of total generation (%)
+FOSSIL_perc,float64,72,0.06,717,"15.2, 15.7, 14.6",Fossil generation as percentage of total generation (%)
+North Scotland,float64,0,0.0,788,"30.0, 44.0, 44.0","North Scotland carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
+South Scotland,float64,0,0.0,480,"11.0, 7.0, 8.0","South Scotland carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
+North West England,float64,0,0.0,608,"38.0, 41.0, 39.0","North West England carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
+North East England,float64,0,0.0,514,"24.0, 30.0, 30.0","North East England carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
+Yorkshire,float64,0,0.0,1077,"319.0, 298.0, 295.0","Yorkshire carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
+North Wales and Merseyside,float64,0,0.0,1347,"157.0, 183.0, 180.0","North Wales and Merseyside carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
+South Wales,float64,0,0.0,1294,"271.0, 157.0, 155.0","South Wales carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
+West Midlands,float64,0,0.0,1183,"40.0, 39.0, 39.0","West Midlands carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
+East Midlands,float64,0,0.0,1566,"325.0, 340.0, 337.0","East Midlands carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
 East England,float64,0,0.0,905,"58.0, 61.0, 60.0","East England carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
-South West England,float64,0,0.0,1047,"72.0, 90.0, 89.0","South West England carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
-South England,float64,0,0.0,1042,"116.0, 152.0, 152.0","South England carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
-London,float64,0,0.0,1153,"49.0, 69.0, 68.0","London carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
-South East England,float64,0,0.0,948,"73.0, 70.0, 70.0","South East England carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
+South West England,float64,0,0.0,1049,"72.0, 90.0, 89.0","South West England carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
+South England,float64,0,0.0,1044,"116.0, 152.0, 152.0","South England carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
+London,float64,0,0.0,1156,"49.0, 69.0, 68.0","London carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
+South East England,float64,0,0.0,949,"73.0, 70.0, 70.0","South East England carbon intensity forecast, predicted using machine learning models and metered generation (gCO2/kWh)"
 datetime,"datetime64[ns, UTC]",0,0.0,121034,"2018-09-17 23:00:00+00:00, 2018-09-17 23:30:00+00:00, 2018-09-18 00:00:00+00:00","Timestamp of record, given in UTC (Coordinated Universal Time)"
